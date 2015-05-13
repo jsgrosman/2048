@@ -1,0 +1,112 @@
+body {
+    margin: 0 0; }
+
+
+@media only screen and (min-width: 768px) {}
+    #globalheader {
+        position: relative;
+        z-index: 2;
+        display: block;
+        background: #e0e0e0;
+        border-bottom: 2px solid #fff;
+    }
+
+#globalheader {
+    position: relative;
+    background: #ebebeb;
+    height: 46px;
+}    
+
+@media only screen and (min-width: 1025px) {
+    #globalheader .nprhome {
+        margin-left: 30px;
+    } }
+
+@media only screen and (min-width: 768px) {
+    #globalheader .nprhome {
+        float: left;
+        margin: 12px 0 0 15px;
+        width: 61px;
+    } }
+
+a img {
+    border: none;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+img, object, embed {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 1025px) {
+    #globalheader .inner {
+        width: 100%;
+        float: none;
+        padding-right: 46px;
+    } }
+
+@media only screen and (min-width: 768px) {
+    #globalheader .inner {
+        width: auto;
+        text-align: right;
+    } }
+
+@media only screen and (min-width: 1025px) {
+    #globalheader .nav-one {
+        display: block;
+        padding-left: 113px;
+    } }
+
+@media only screen and (min-width: 1025px) {
+    #globalheader .nav-one {
+        font-weight: bold;
+    } }
+
+ol, ul {
+    list-style: none;
+    display: inline;
+}
+
+@media only screen and (min-width: 1025px) {
+    #globalheader .nav-one li:first-child {
+        margin-left: 0;
+    } }
+
+@media only screen and (min-width: 768px) {
+    #globalheader .nav-two {
+        position: relative;
+        float: right;
+        margin-right: 22px;
+    } }
+
+@media only screen and (min-width: 768px) {
+    #globalheader li {
+        float: left;
+        margin-left: 22px;
+        font-size: 12px;
+        font-size: 1.2rem;
+        text-transform: lowercase;
+    } }
+
+@media only screen and (min-width: 768px) {
+    #globalheader li a {
+        display: block;
+        height: 44px;
+        line-height: 44px;
+    } }
+
+#globalheader li a {
+    white-space: nowrap;
+}
+
+#globalheader li a {
+    color: #6d8ac4;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+
+

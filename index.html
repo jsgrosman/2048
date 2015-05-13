@@ -5,6 +5,7 @@
   <title>2048</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href="style/npr.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
   <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
@@ -17,6 +18,41 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
 <body>
+  <header id="globalheader">
+      <a href="/" class="nprhome">
+          <img src="http://media.npr.org/chrome/news/nprlogo_138x46.gif" alt="NPR">
+      </a>
+      <div class="inner" data-metrics-category="Global Navigation">
+
+          <nav class="nav-two">
+              <ul>
+                  <li class="login"><a href="https://api.npr.org/authorization/v2/authorize?client_id=dev-jgrosman.npr.org&redirect_uri=http://dev-jgrosman.npr.org/NPR2048/&response_type=code&scope=identity.readonly%20listening.write%20listening.readonly&state=1">Login</a></li>
+              </ul>
+          </nav>
+          <nav class="nav-one">
+              <ul>
+                  <li class="news"><a href="/sections/news/" data-metrics="{&quot;action&quot;:&quot;Click News&quot;}">News</a></li>
+                  <li class="arts-and-life"><a href="/sections/arts/" data-metrics="{&quot;action&quot;:&quot;Click Arts &amp; Life&quot;}">Arts &amp; Life</a></li>
+                  <li class="music"><a href="/music/" data-metrics="{&quot;action&quot;:&quot;Click Music&quot;}">Music</a></li>
+                  <li class="listen"><a href="/listen/">Listen</a></li>
+              </ul>
+          </nav>
+
+
+      </div>
+
+  </header>
+
+  <div id="jquery_jplayer_1"></div>
+  <div id="jp_container_1">
+      <a href="#" class="jp-play">Play</a>
+      <a href="#" class="jp-pause">Pause</a>
+      <a href="#" class="jp-skip">Skip</a>
+      <a href="#" class="jp-interesting">Interesting</a>
+  </div>
+
+
+
   <div class="container">
     <div class="heading">
       <h1 class="title">2048</h1>
@@ -85,6 +121,10 @@
     </p>
   </div>
 
+  <script src="js/lib/jquery-2.1.4.min.js"></script>
+  <script src="js/lib/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+  <script src="js/lib/URI-1.15.1.js"></script>
+  <script src="js/lib/jquery.cookie.js"></script>
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>
@@ -95,5 +135,6 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
+  <script src="js/npr.js"></script>
 </body>
 </html>

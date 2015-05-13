@@ -306,6 +306,7 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
+    color: rgba(249, 246, 242, 0.8);
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
@@ -314,64 +315,76 @@ hr {
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-image: url("http://media.npr.org/about/people/bios/biophotos/sstamberg-e91b884b35d66d56588d1e5e4b435098e97577a7-s100-c85.jpg");
+    background-position: center; }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+    background-image: url("http://media.npr.org/assets/img/2012/04/05/ntotenberg_sig07_2_prn_clr_vert-2f7e0c542aadee06e23ad46fc7968e4824ba243a-s100-c85.jpg");
+    background-position: center; }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: #f2b179;
+    background-image: url("http://media.npr.org/assets/img/2011/12/29/carlkasell_6_vert-ceabfbfaea988ceab08f4e0b79c7c5593118be80-s100-c85.jpg");
+    background-position: center; }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background: #f59563;
+    background-image: url("http://media.npr.org/assets/img/2011/12/30/audiecornish_39_vert-d66b4e3af956f3218ffce1711851ad1547edf1c0-s100-c85.jpg");
+    background-position: center; }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
-  .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f67c5f;
+    background-image: url("http://media.npr.org/assets/img/2011/09/12/steveinskeep_vert-59449edb7e33d0ba33ed6af25d1c58fb6497f089-s100-c85.jpg");
+    background-position: center; }
+.tile.tile-64 .tile-inner {
+    background: #f65e3b;
+    background-image: url("http://media.npr.org/about/people/bios/biophotos/ssimon_custom-87a629ae401c07b0790b0bef4609eb57a285626c-s100-c85.jpg");
+    background-position: center; }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
     background: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 45px;
+    background-image: url("http://media.npr.org/assets/img/2012/01/03/robertsiegel_18_vert-5434fbf6dd3749b5df9c3dcf2d31edf6ba6f7794-s100-c85.jpg");
+    background-position: center; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
     background: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 45px;
+    background-image: url("http://media.npr.org/assets/img/2013/08/02/oeisenberg_vert-7d2f2bf5182320e78d1aca4b17fa3536f12d9f58-s100-c85.jpg");
+    background-position: center; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    font-size: 45px;
+    background-image: url("http://media.npr.org/about/people/bios/biophotos/psagal.pb_custom-c545495f99848e76ee2df0df1d1dfc656021933a-s100-c85.jpg");
+    background-position: center; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+    font-size: 35px;
+    background-image: url("http://media.npr.org/assets/img/2012/01/03/reneemontagne_38_vert-0bc6721f96ca8b808cb8a539a3801de940a4c646-s100-c85.jpg");
+    background-position: center; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    font-size: 35px;
+    background-image: url("http://media.npr.org/assets/img/2011/12/30/arishapiro_37_vert-282fac5d50b9340d0b363082e99b15834707a935-s100-c85.jpg");
+    background-position: center; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
