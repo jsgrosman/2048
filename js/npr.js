@@ -39,7 +39,7 @@ $(document).ready(function() {
     }
 
 
-    $('.skip').on('click', function(event) {
+    $('.jp-skip').on('click', function(event) {
         event.preventDefault();
         skipAudio();
         return false;
